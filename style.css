@@ -205,12 +205,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
         3.  Welcome-hero
 --------------------------------------*/
 .welcome-hero {
-    position: relative;
-background:url ("welcome-banner.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
-    z-index: 1;
+  position: relative;
+  background: url("welcome-banner.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
 }
+
 .welcome-hero:before {
     position: absolute;
     content: "";
@@ -712,4 +713,5 @@ background:url ("welcome-banner.jpg") no-repeat;
 }
 
 /*========================Thank you=================
+
 
